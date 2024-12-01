@@ -1,5 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import Footer from './footer'
+import Footer1 from './footer1'
 
 export default function About() {
   return (
@@ -46,6 +48,8 @@ export default function About() {
         Sports Administration, Youth Football, Coaching{'\n'}
         (Missouri Minority Coaches Association)
       </Text>
+      <Footer1/>
+      <Footer/>
     </ScrollView>
   );
 }

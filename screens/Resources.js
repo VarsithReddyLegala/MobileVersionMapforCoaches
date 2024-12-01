@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageBackground, ScrollView, TouchableOpacity, Linking } from 'react-native';
-
+import Footer from './footer';
+import Footer1 from './footer1';
 export default function Resources() {
   const resources = [
     {
@@ -46,7 +47,9 @@ export default function Resources() {
             <Text style={styles.linkText}>{resource.title}</Text>
           </TouchableOpacity>
         ))}
+        <Footer1/>
       </ScrollView>
+      <Footer/>
     </View>
   );
 }
